@@ -233,7 +233,7 @@ void find_key(DBT *key, DBT *value, void *data){
         }
         if(strcmp("ALL",address)==0){
 	    printf("%s\n", b58);
-            export_key(private_key,private_key_length,1);
+            export_key(private_key,private_key_length);
         }
         free(public_key);
         free(private_key);
