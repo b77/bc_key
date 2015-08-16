@@ -381,4 +381,5 @@ int main(int argc, char *argv[]){
 	foreach_item(wallet,find_key,argv[1]);
 }
 
+-help
 
